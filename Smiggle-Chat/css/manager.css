@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+div#overlay {
+	display: none;
+	z-index: 2;
+	background: #000;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+}
+div#specialBox {
+	display: none;
+	position: relative;
+	
+	z-index: 3;
+	margin: 150px auto 0px auto;
+	width: 500px; 
+	height: auto;
+	background: #FFF;
+	color: #000;
+	
+	padding:3% 3% 0% 3%;
+}
+div#registerOverlay {
+	display: none;
+	z-index: 2;
+	background: #000;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+}
+div#registerSpecialBox {
+	display: none;
+	position: relative;
+	z-index: 3;
+	margin: 150px auto 0px auto;
+	width: 500px; 
+	height: auto;
+	background: #FFF;
+	color: #000;
+	
+	padding:3% 3% 0% 3%;
+}
+div#wrapper {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	padding-left:24px;
+}
+#pageFooter
+{
+	height:50px;
+	width:100%;
+	background-color:rgba(0,0,0,0.78);
+}
+#pageFooter p
+{
+	color:#fff;
+}
+@media screen and (max-width : 600px)
+{
+	div#specialBox, div#registerSpecialBox 
+	{
+		width:100%;
+		height:auto;
+	}
+}
